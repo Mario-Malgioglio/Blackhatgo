@@ -14,6 +14,8 @@
 
 ### 2. Desarrollo de Herramientas de Red y Protocolos (Capítulos 2 al 6)
 * **TCP, Escáneres y Proxies (Cap. 2)**: Creación de escáneres de puertos TCP concurrentes optimizados con *Worker Pools* y `sync.WaitGroup`, desarrollo de servidores Echo, proxies TCP para redirección de puertos y réplica de la funcionalidad de ejecución remota de comandos de Netcat.
+#### Escáneres (https://github.com/Mario-Malgioglio/Blackhatgo/blob/main/escaner-de-puertos-concurrente.md)
+
 * **Clientes HTTP e Interacción Remota (Cap. 3)**: Peticiones HTTP, análisis de respuestas estructuradas en JSON/XML, integración con las APIs de **Shodan** y **Metasploit**, y extracción de metadatos de documentos analizando resultados web de Bing.
 * **Servidores HTTP, Rutas y Middleware (Cap. 4)**: Construcción de servidores y enrutadores con `gorilla/mux` y `negroni`, recolectores de credenciales, *keyloggers* con **WebSockets** y multiplexación de conexiones C2 mediante proxies inversos.
 * **Explotación de DNS (Cap. 5)**: Enumeración concurrente de subdominios, creación de un servidor y proxy DNS personalizado, y uso de **túneles DNS** para canales de Comando y Control (C2) en redes restrictivas.
